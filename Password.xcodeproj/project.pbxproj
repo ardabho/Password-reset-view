@@ -8,14 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9935989D2B0E6A9B009B59CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9935989C2B0E6A9B009B59CE /* AppDelegate.swift */; };
-		9935989F2B0E6A9B009B59CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9935989E2B0E6A9B009B59CE /* SceneDelegate.swift */; };
 		993598A12B0E6A9B009B59CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993598A02B0E6A9B009B59CE /* ViewController.swift */; };
-		993598A42B0E6A9B009B59CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993598A22B0E6A9B009B59CE /* Main.storyboard */; };
 		993598A62B0E6A9D009B59CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993598A52B0E6A9D009B59CE /* Assets.xcassets */; };
 		993598A92B0E6A9D009B59CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993598A72B0E6A9D009B59CE /* LaunchScreen.storyboard */; };
-		993598B42B0E6A9D009B59CE /* PasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993598B32B0E6A9D009B59CE /* PasswordTests.swift */; };
-		993598BE2B0E6A9E009B59CE /* PasswordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993598BD2B0E6A9E009B59CE /* PasswordUITests.swift */; };
-		993598C02B0E6A9E009B59CE /* PasswordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993598BF2B0E6A9E009B59CE /* PasswordUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +33,12 @@
 /* Begin PBXFileReference section */
 		993598992B0E6A9B009B59CE /* Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Password.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9935989C2B0E6A9B009B59CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9935989E2B0E6A9B009B59CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		993598A02B0E6A9B009B59CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		993598A32B0E6A9B009B59CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		993598A52B0E6A9D009B59CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		993598A82B0E6A9D009B59CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		993598AA2B0E6A9D009B59CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		993598AF2B0E6A9D009B59CE /* PasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		993598B32B0E6A9D009B59CE /* PasswordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTests.swift; sourceTree = "<group>"; };
 		993598B92B0E6A9E009B59CE /* PasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		993598BD2B0E6A9E009B59CE /* PasswordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordUITests.swift; sourceTree = "<group>"; };
-		993598BF2B0E6A9E009B59CE /* PasswordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				9935989B2B0E6A9B009B59CE /* Password */,
-				993598B22B0E6A9D009B59CE /* PasswordTests */,
-				993598BC2B0E6A9E009B59CE /* PasswordUITests */,
 				9935989A2B0E6A9B009B59CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +87,21 @@
 		9935989B2B0E6A9B009B59CE /* Password */ = {
 			isa = PBXGroup;
 			children = (
+				993598CE2B0E6B6A009B59CE /* Files */,
 				9935989C2B0E6A9B009B59CE /* AppDelegate.swift */,
-				9935989E2B0E6A9B009B59CE /* SceneDelegate.swift */,
 				993598A02B0E6A9B009B59CE /* ViewController.swift */,
-				993598A22B0E6A9B009B59CE /* Main.storyboard */,
-				993598A52B0E6A9D009B59CE /* Assets.xcassets */,
-				993598A72B0E6A9D009B59CE /* LaunchScreen.storyboard */,
-				993598AA2B0E6A9D009B59CE /* Info.plist */,
 			);
 			path = Password;
 			sourceTree = "<group>";
 		};
-		993598B22B0E6A9D009B59CE /* PasswordTests */ = {
+		993598CE2B0E6B6A009B59CE /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				993598B32B0E6A9D009B59CE /* PasswordTests.swift */,
+				993598A52B0E6A9D009B59CE /* Assets.xcassets */,
+				993598A72B0E6A9D009B59CE /* LaunchScreen.storyboard */,
+				993598AA2B0E6A9D009B59CE /* Info.plist */,
 			);
-			path = PasswordTests;
-			sourceTree = "<group>";
-		};
-		993598BC2B0E6A9E009B59CE /* PasswordUITests */ = {
-			isa = PBXGroup;
-			children = (
-				993598BD2B0E6A9E009B59CE /* PasswordUITests.swift */,
-				993598BF2B0E6A9E009B59CE /* PasswordUITestsLaunchTests.swift */,
-			);
-			path = PasswordUITests;
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +210,6 @@
 			files = (
 				993598A92B0E6A9D009B59CE /* LaunchScreen.storyboard in Resources */,
 				993598A62B0E6A9D009B59CE /* Assets.xcassets in Resources */,
-				993598A42B0E6A9B009B59CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +236,6 @@
 			files = (
 				993598A12B0E6A9B009B59CE /* ViewController.swift in Sources */,
 				9935989D2B0E6A9B009B59CE /* AppDelegate.swift in Sources */,
-				9935989F2B0E6A9B009B59CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				993598B42B0E6A9D009B59CE /* PasswordTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				993598C02B0E6A9E009B59CE /* PasswordUITestsLaunchTests.swift in Sources */,
-				993598BE2B0E6A9E009B59CE /* PasswordUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +269,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		993598A22B0E6A9B009B59CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				993598A32B0E6A9B009B59CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		993598A72B0E6A9D009B59CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +405,6 @@
 				INFOPLIST_FILE = Password/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +431,6 @@
 				INFOPLIST_FILE = Password/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
